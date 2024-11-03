@@ -40,7 +40,7 @@ def predict_custom_image(image_path, model):
     plt.title(f"Predicted Digit: {prediction}")
     plt.axis("off")
     plt.show()
-    
+    print("Sekas")
     return prediction
 
 # Test the function with your custom image path
